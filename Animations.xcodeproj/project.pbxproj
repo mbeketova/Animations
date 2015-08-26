@@ -15,6 +15,8 @@
 		84E002B01B8E445600D08EDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E002AF1B8E445600D08EDC /* Images.xcassets */; };
 		84E002B31B8E445600D08EDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E002B11B8E445600D08EDC /* LaunchScreen.xib */; };
 		84E002BF1B8E445600D08EDC /* AnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E002BE1B8E445600D08EDC /* AnimationsTests.m */; };
+		84E002CA1B8E449300D08EDC /* Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E002C91B8E449300D08EDC /* Animations.m */; };
+		84E5B8461B8E521B00484F35 /* бабочка прикольная.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E5B8451B8E521B00484F35 /* бабочка прикольная.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		84E002B81B8E445600D08EDC /* AnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E002BD1B8E445600D08EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E002BE1B8E445600D08EDC /* AnimationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationsTests.m; sourceTree = "<group>"; };
+		84E002C81B8E449300D08EDC /* Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animations.h; sourceTree = "<group>"; };
+		84E002C91B8E449300D08EDC /* Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animations.m; sourceTree = "<group>"; };
+		84E5B8451B8E521B00484F35 /* бабочка прикольная.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "бабочка прикольная.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,9 @@
 		84E0029E1B8E445600D08EDC /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				84E5B8451B8E521B00484F35 /* бабочка прикольная.jpg */,
+				84E002C81B8E449300D08EDC /* Animations.h */,
+				84E002C91B8E449300D08EDC /* Animations.m */,
 				84E002A31B8E445600D08EDC /* AppDelegate.h */,
 				84E002A41B8E445600D08EDC /* AppDelegate.m */,
 				84E002A91B8E445600D08EDC /* ViewController.h */,
@@ -202,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E5B8461B8E521B00484F35 /* бабочка прикольная.jpg in Resources */,
 				84E002AE1B8E445600D08EDC /* Main.storyboard in Resources */,
 				84E002B31B8E445600D08EDC /* LaunchScreen.xib in Resources */,
 				84E002B01B8E445600D08EDC /* Images.xcassets in Resources */,
@@ -224,6 +233,7 @@
 			files = (
 				84E002A51B8E445600D08EDC /* AppDelegate.m in Sources */,
 				84E002A81B8E445600D08EDC /* Animations.xcdatamodeld in Sources */,
+				84E002CA1B8E449300D08EDC /* Animations.m in Sources */,
 				84E002AB1B8E445600D08EDC /* ViewController.m in Sources */,
 				84E002A21B8E445600D08EDC /* main.m in Sources */,
 			);
@@ -422,6 +432,7 @@
 				84E002C41B8E445600D08EDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E002C51B8E445600D08EDC /* Build configuration list for PBXNativeTarget "AnimationsTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +441,7 @@
 				84E002C71B8E445600D08EDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
